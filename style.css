@@ -1,0 +1,37 @@
+/* button */
+.button {
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.button:hover {
+    background-color: darkcyan;
+}
+
+.button:focus {
+    background-color: purple;
+}
+
+.button:active {
+    margin: 5px;
+    height: 45px;
+    width: 145px;
+}
+
+/* text and icon */
+.button_text {
+    float: left;
+    padding-top: 6px;
+    font-size: 25px;
+}
+
+.button_icon {
+    float: right;
+    padding-top: 3px;
+    font-size: 35px;
+}
+
